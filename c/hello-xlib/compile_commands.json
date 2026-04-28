@@ -1,0 +1,30 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-std=gnu11",
+      "-pedantic",
+      "-Wall",
+      "-Wextra",
+      "-Os",
+      "-I/usr/include",
+      "-I/usr/include/X11",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_POSIX_C_SOURCE=200809L",
+      "-DVERSION=\"0.0.1\"",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_POSIX_C_SOURCE=200809L",
+      "-DVERSION=\"0.0.1\"",
+      "-c",
+      "-o",
+      "main.o",
+      "main.c"
+    ],
+    "directory": "/home/Inkex/WorkSpace/projects/c/hello-xlib",
+    "file": "/home/Inkex/WorkSpace/projects/c/hello-xlib/main.c",
+    "output": "/home/Inkex/WorkSpace/projects/c/hello-xlib/main.o"
+  }
+]
