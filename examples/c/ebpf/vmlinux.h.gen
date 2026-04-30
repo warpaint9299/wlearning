@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+sudo apt install bpftool -y
+bpftool btf dump file /sys/kernel/btf/vmlinux format c > vmlinux.h
